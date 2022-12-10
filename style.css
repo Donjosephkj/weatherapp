@@ -1,0 +1,88 @@
+
+body{
+    background-image: url('./foggy-mountainous-scenery-gloomy-sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.rightsection{
+    background-color: rgba(0, 204, 255, 0.11);
+    backdrop-filter: blur(10px);
+    height: 648px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    padding-left: 20px;
+}
+.weatherdetails{
+    display: flex;
+    margin-top: 400px;
+    padding-left: 100px;
+    color: white;
+}
+#temp{
+    font-size: 100px;
+}
+#place{
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+#date{
+    margin-top: -15px;
+
+    margin-left: 10px;
+}
+.search{
+    border-style: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    padding-left: 20px;
+
+}
+.search:focus{
+    outline: 0px;
+}
+.searchbutton{
+    border-style: none;
+    background-color: rgb(26, 70, 62);
+    float: right;
+    height: 50px;
+    width: 60px;
+}
+.line{
+    width: 400px;
+    height: 1px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+.searchimage{
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.outsection{
+    margin-top: 100px;
+    color: white;
+    
+
+}
+.detailshead{
+    margin-top: 40px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.493);
+}
+
+.weatherdetialshead{
+    text-shadow: 0px 0px 20px rgba(100, 100, 100, 0.493);
+}
+::placeholder{
+    color: white;
+}
+.celcius{
+    display: flex;
+}
